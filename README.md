@@ -24,16 +24,15 @@ instractions: https://lite.ip2location.com/database/ip-country-region-city-latit
 * Now open api_keys.py and insert your Google Places API into the variable.
 * Run: python google_places_api.py --help and you will see:
 
-usage: python google_places_api.py [-h] [--country] [--city] [--word] [--radius]
-                  [--do] [--rownumber]
+usage: python google_places_api.py [-h] [--country] [--city] [--word] [--radius] [--do] [--rownumber]
 
 optional arguments:
-  -h, --help    show this help message and exit
-  --country     Input a country code (like "US" or "FR" or "NZ"), or "ALL" for all countries
-  --city        Enter a city name (like "New York" or "Berlin" or "Moscow")
-  --word        Enter a keyword
-  --radius      Enter a radius between 0 and 50000 (default is 10000)
-  --do          Enter next arguments: "show" or "save"
-  --rownumber   Input a specific row number 
+ * -h, --help    show this help message and exit
+ * --country     Input a country code (like "US" or "FR" or "NZ"), or "ALL" for all countries
+ * --city        Enter a city name (like "New York" or "Berlin" or "Moscow")
+ * --word        Enter a keyword
+ * --radius      Enter a radius between 0 and 50000 (default is 10000)
+ * --do          Enter next arguments: "show" or "save"
+ * --rownumber   Input a specific row number 
 
 made by: https://w-e-ll.com/cv/
