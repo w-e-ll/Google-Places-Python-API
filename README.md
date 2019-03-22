@@ -1,6 +1,20 @@
 # Google Places API Python Scraper
 
-Python spyder scrapes hotel data (place_id, hotel_name, address, latitude, longitude, country) from Google Places API service, saves results in PostgrteSQL Database.
+The Places API is a service that returns information about places using HTTP requests. Places are defined within this API as establishments, geographic locations, or prominent points of interest.
+It scrapes hotel descriptions, names, lat, long, id, and other stuff from https://maps.googleapis.com/maps/api/place/. 
+Scraped data stored in PostgreSQL database.
+
+#### Introducing the API
+The following place requests are available:
+
+- Place Search returns a list of places based on a user's location or search string.
+- Place Details returns more detailed information about a specific place, including user reviews.
+- Place Photos provides access to the millions of place-related photos stored in Google's Place database.
+- Place Autocomplete automatically fills in the name and/or address of a place as users type.
+- Query Autocomplete provides a query prediction service for text-based geographic searches, returning suggested queries as users type.
+Each of the services is accessed as an HTTP request, and returns either an JSON or XML response. All requests to a Places service must use the https:// protocol, and include an API key.
+
+The Places API uses a place ID to uniquely identify a place. For details about the format and usage of this identifier across the Places API and other APIs, see the Place IDs documentation.
 
 
 ## To install requirements and start the application:
